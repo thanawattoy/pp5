@@ -1,0 +1,324 @@
+body{
+	font-family:MS Sans Serif,microsoft sans serif;
+	font-size:12px; 
+	background:#FFBF55
+}
+a:link{
+	color:Blue;
+	text-decoration:none
+}
+a:visited{
+	color:purple;
+	text-decoration:none
+}
+a:hover{
+	color:red;
+}
+td{
+	font-size:10pt;
+	font-family:ms sans serif;
+}
+ul {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+    border: none;
+}
+#wrapper {
+	width: 960px;
+	margin: 10px auto 0 auto;
+	background-color: #FFF;
+	padding: 5px;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px 11px 11px 11px;
+	-moz-box-shadow: 0 0 10px #C8C8C8;
+	-webkit-box-shadow: 0 0 10px #C8C8C8;
+	box-shadow: 0 0 10px #C8C8C8;
+   	behavior: url(pie.htc);
+}
+#templatemo_body_wrapper {
+	width: 950px;
+	margin: 0 auto;  /* ทำให้มันกลึ่งกลาง */
+}
+
+#header{
+	margin: 0px 5px 0 5px;
+	padding: 0px;
+	text-align: center;
+	border-bottom: 50px #FC974B;
+	background-color:#F48D29;
+}
+#main{
+        margin: 0px 5px;
+	padding: 0px;
+	width: 950px;
+	background: #Ffffff;
+}
+
+#content {
+        margin: auto;
+        width: 950px;
+	height: 200px;
+	margin-right: 10px;
+	background: #cccfff;
+}
+#footer {
+	width: 950px;
+	margin: 0px;
+	padding: 0px;
+	background-color:#cc0;
+	text-align: center;
+}
+
+.autocomplete_list * {
+	font-family: "myriad pro", "segoe ui", "trebuchet ms", sans-serif;
+	font-size: 13px;
+}
+
+.autocomplete_list b {
+	font-weight: bold;
+}
+
+.autocomplete_list { 
+	background: #f2f2f2; display: block;
+	border: 1px solid gray;
+	text-align: left; z-index: 200; 
+}
+
+.autocomplete_list, .autocomplete_list ol, .autocomplete_list li { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+.autocomplete_list li { 
+	margin: 0; 
+	text-align: left;
+	cursor: pointer; 
+	padding: 4px;
+	border-bottom: 1px solid silver;	
+}
+
+.autocomplete_list .last_item { 
+	border: none;	
+}
+
+.autocomplete_list .current_item { 
+	background: #b4d5fe; color: #000; 
+}
+
+.autocomplete_list span { 
+	color: #111; float: right; padding-left: 2em; 
+}
+
+.autocomplete_icon { 
+	background-image: url(autocomplete.gif);	
+	cursor: pointer;
+	cursor: hand;	
+}
+.news{ 
+border:0; 
+border-bottom:thin dashed #999999;   
+padding: 5px;
+font-family: "Microsoft Sans Serif";
+font-weight: normal; 
+text-align: left; 
+font-size:12px;    
+}
+.news:nth-child(odd) {
+            background:#FFFFFF;
+        }
+.news:nth-child(even) {
+            background:#FFF0DF;
+        }
+.news:hover{ background-color:#FFFFCC; color: #000CCC; }
+
+.rnews {
+	margin: 10px;
+	background-color: #FFF;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px 11px 11px 11px;
+	-moz-box-shadow: 0 0 10px #C8C8C8;
+	-webkit-box-shadow: 0 0 10px #C8C8C8;
+	box-shadow: 0 0 10px #C8C8C8;
+   	behavior: url(pie.htc);
+}
+.rnews .rnewst {
+	color: #0000CC;
+	background-color: #FFF;
+	padding: 10px;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px 11px 0px 0px;
+	-moz-box-shadow: 0 0 10px #C8C8C8;
+	-webkit-box-shadow: 0 0 10px #C8C8C8;
+	box-shadow: 0 0 10px #C8C8C8;
+}
+.rnews .rnewsd {
+	padding-left: 1px;
+	padding-right: 5px;
+	margin: 10px 0 0 20px;
+}
+.browse_page{
+	clear:both;
+	margin-left:12px;
+	height:35px;
+	margin-top:5px;
+	display:block;
+}
+.browse_page a,.browse_page a:hover{
+	display:block;
+	height:18px;
+	width:18px;
+	font-size:10px;
+	float:left;
+	margin-right:2px;
+	border:1px solid #CCCCCC;
+	background-color:#F4F4F4;
+	color:#333333;
+	text-align:center;
+	line-height:18px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.browse_page a:hover{
+	border:1px solid #0A85CB;
+	background-color:#0A85CB;
+	color:#FFFFFF;
+}
+.browse_page a.selectPage{
+	display:block;
+	height:18px;
+	width:18px;
+	font-size:10px;
+	float:left;
+	margin-right:2px;
+	border:1px solid #0A85CB;
+	background-color:#0A85CB;
+	color:#FFFFFF;
+	text-align:center;
+	line-height:18px;
+	font-weight:bold;
+}
+.browse_page a.SpaceC{
+	display:block;
+	height:18px;
+	width:18px;
+	font-size:10px;
+	float:left;
+	margin-right:2px;
+	border:0px dotted #0A85CB;
+	font-size:11px;
+	background-color:#FFFFFF;
+	color:#333333;
+	text-align:center;
+	line-height:18px;
+	font-weight:bold;
+}
+.browse_page a.naviPN{
+	width:50px;
+	font-size:12px;
+	display:block;
+	height:18px;
+	float:left;
+	border:1px solid #0A85CB;
+	background-color:#0A85CB;
+	color:#FFFFFF;
+	text-align:center;
+	line-height:18px;
+	font-weight:bold;	
+}
+
+ul.v_menu{ /* กำหนดขอบเขตของเมนู */
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	font-family:tahoma, "Microsoft Sans Serif", Vanessa;
+	font-size:12px;
+}
+ul.v_menu > li{ /* กำหนดรูปแบบให้กับเมนูหลัก */
+	display:block;
+	width:150px;
+	height:20px;
+	text-indent:5px;
+	background-color:#FFCC00;
+	border:1px #006633 inset;
+	float:left;
+	text-align:center;
+}
+ul.v_menu > li:hover{ /* กำหนดรูปแบบให้กับเมนูเมื่อมีเมาส์อยู่เหนือ */
+	display:block;
+	width:150px;
+	height:20px;
+	text-indent:5px;
+	background-color:#FFFFCC;
+	border:1px #006633 inset;
+	float:left;
+	text-align:center;	
+}
+ul.v_menu > li > a,ul.v_menu > li > ul > li > a{ /* กำหนดรูปแบบให้กับลิ้งค์ */
+	text-decoration:none;
+	color:#666666;
+	line-height:20px;
+}
+ul.v_menu > li > ul{ 
+	display:none;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+ul.v_menu > li:hover > ul { 
+	display:block;
+	width:150px;
+}	
+ul.v_menu > li > ul > li{ /* กำหนดรูปแบบให้กับเมนูย่อย */
+	display:block;
+	width:150px;
+	height:20px;
+	text-indent:5px;
+	background-color:#FFFFCC;
+	border:1px #F4F4F4 solid;
+	float:left;
+	text-align:center;
+}
+ul.v_menu > li > ul > li:hover{ /* กำหนดรูปแบบให้กับเมนูย่อยเมื่อเมาส์อยู่เหนือ */
+	display:block;
+	width:150px;
+	height:20px;
+	text-indent:5px;
+	background-color:#F4F4F4;
+	border:1px #F4F4F4 solid;
+	float:left;
+	text-align:center;
+}
+input {
+    border: 1px solid #CCCCCC;
+    background: #fff;
+}
+input:focus {
+    border: 1px solid #F48D29;
+    background: #FFFFCC;
+    -moz-box-shadow: 0 0 10px #C8C8C8;
+    -webkit-box-shadow: 0 0 10px #C8C8C8;
+    box-shadow: 0 0 10px #C8C8C8;
+}
+select {
+    border: 1px solid #CCCCCC;
+    background: #fff;
+}
+select:focus {
+    border: 1px solid #F48D29;
+    background: #FFFFCC;
+    -moz-box-shadow: 0 0 10px #C8C8C8;
+    -webkit-box-shadow: 0 0 10px #C8C8C8;
+    box-shadow: 0 0 10px #C8C8C8;
+}
+.inputtext{
+    border:0; 
+    border-bottom:thin dashed #999999;
+}
