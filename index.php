@@ -16,6 +16,7 @@ extract($arr, EXTR_SKIP);
 }
 }
 
+
 if ( !file_exists( 'includes/config.in.php' ) || filesize( 'includes/config.in.php' ) < 9.00 ) {
 	header( 'Location: install/index.php' );
 	exit();
